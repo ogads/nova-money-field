@@ -49,7 +49,7 @@ class Money extends Number
                     $value *= $this->minorUnit($currency);
                 }
 
-                $model->{$attribute} = $value;
+                $model->{$attribute} = intval($value);
             });
     }
 
