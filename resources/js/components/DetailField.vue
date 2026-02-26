@@ -1,7 +1,7 @@
 <template>
     <PanelItem :field="field">
         <template #value>
-            <p class="text-90">{{ formattedValue }}</p>
+            <p class="text-gray-900 dark:text-gray-300">{{ formattedValue }}</p>
         </template>
     </PanelItem>
 </template>

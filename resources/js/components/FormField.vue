@@ -7,7 +7,7 @@
         <template #field>
             <div class="flex flex-wrap items-stretch w-full relative">
                 <div class="flex">
-                    <span class="flex items-center bg-gray-100 rounded rounded-r-none px-3 whitespace-no-wrap text-sm form-control form-input form-control-bordered">{{ currentField.currency }}</span>
+                    <span class="flex items-center bg-gray-100 rounded rounded-r-none px-3 whitespace-nowrap text-sm form-control form-input form-control-bordered">{{ currentField.currency }}</span>
                 </div>
                 <input
                     v-bind="extraAttributes"
